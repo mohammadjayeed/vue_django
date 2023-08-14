@@ -1,12 +1,18 @@
+{%load static%}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    
+    {% for file in vue_css_paths %}
+        <link rel="stylesheet" href="{% static file %}">
+    {% endfor %}
 </head>
 <body>
     {% block content %}
     {% endblock content %}
+    {% for file in vue_js_paths %}
+    <script src ="{% static file %}"></static>
+    {% endfor %}
 </body>
 </html>
