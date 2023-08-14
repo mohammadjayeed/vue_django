@@ -1,21 +1,14 @@
-# venv
-# .gitignore
-# .env
-# **/__pycache__/
-# db.sqlite3
-# Byte-compiled / optimized / DLL files
-__pycache__/
+\__pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
+
 *.so
 
 # Distribution / packaging
 .Python
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
